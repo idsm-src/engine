@@ -224,6 +224,10 @@ public class SqlAggregation extends SqlIntercode
                             return true;
                     }
 
+                    //FIXME: use a better approach to decide whether the two codes are equivalent
+                    if(other instanceof CodeWrapper o && o.item.translate().equals(item.translate()))
+                        return true;
+
                     return false;
                 }
             }
