@@ -17,9 +17,9 @@
       <classpath refid="class.path"/>
     </javac>
 
-    <copy file="src/cz/iocb/chemweb/server/servlets/endpoint/endpoint.js" todir="classes/cz/iocb/chemweb/server/servlets/endpoint"/>
-    <copy file="src/cz/iocb/chemweb/server/servlets/endpoint/yasgui.min.css" todir="classes/cz/iocb/chemweb/server/servlets/endpoint"/>
-    <copy file="src/cz/iocb/chemweb/server/servlets/endpoint/yasgui.min.js" todir="classes/cz/iocb/chemweb/server/servlets/endpoint"/>
+    <copy file="src/cz/iocb/sparql/engine/endpoint/endpoint.js" todir="classes/cz/iocb/sparql/engine/endpoint"/>
+    <copy file="src/cz/iocb/sparql/engine/endpoint/yasgui.min.css" todir="classes/cz/iocb/sparql/engine/endpoint"/>
+    <copy file="src/cz/iocb/sparql/engine/endpoint/yasgui.min.js" todir="classes/cz/iocb/sparql/engine/endpoint"/>
   </target>
 
   <target name="clean">
