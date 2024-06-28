@@ -1921,7 +1921,7 @@ public class TranslateVisitor extends ElementVisitor<SqlIntercode>
 
                 return defaultResult();
             }
-        }.visitElement(sparqlQuery);
+        }.visitElement(sparqlQuery.getSelect().getPattern()); //FIXME: virtuoso workaround (only sparqlQuery should be used)
 
 
         try
